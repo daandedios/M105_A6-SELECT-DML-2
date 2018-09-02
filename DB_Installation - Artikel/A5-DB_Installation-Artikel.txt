@@ -13,7 +13,9 @@ DB_Installation: Artikel
 
 -- Installation
 
-1. ZIP file Downloaden:
+1. ZIP file Downloaden: 
+https://github.com/daandedios/M105_A6-SELECT-DML-2/blob/master/DB_Installation%20-%20Artikel/mysql_artikel.zip?raw=true
+
 2. ZIP file Entpacken
 3. "Artikeldb.bat" bearbeiten
 4. Nun muss der Pfad des SQL Servers angepasst werden. (Nur der vordere Teil!)
