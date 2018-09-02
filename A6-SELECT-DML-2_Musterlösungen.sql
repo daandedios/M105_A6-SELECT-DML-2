@@ -9,7 +9,7 @@ Aufgabe: A6 - SELECT-DML 2
 !! Um diese Aufgabe zu lösen Benötigt ihr die "artikel" Datenbbakt.
 !! Installationsanleitung für die DB unter: https://github.com/daandedios/M105_A6-SELECT-DML-2/blob/master/DB_Installation%20-%20Artikel/A5-DB_Installation-Artikel.txt
 
-!! Aufgaben ohne Lösungen sind unter folgendem Link zu finden:
+!! Aufgaben ohne Lösungen sind unter folgendem Link zu finden: https://github.com/daandedios/M105_A6-SELECT-DML-2/blob/master/A6-SELECT-DML-2_Aufgabe.sql
 !! Bei Fragen stehe ich euch gerne zu Verfügung: "SQL.dedios@gmail.com" oder per WhatsApp.
 ######################################
 */
