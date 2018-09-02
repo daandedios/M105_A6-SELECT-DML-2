@@ -1,0 +1,39 @@
+﻿/*
+*****************************
+Autor: Daan de Dios
+Datum: 2018-09-02
+DB_Installation: Artikel
+*****************************
+##################################################################################################
+!! Anbei wird beschrieben wie die DB Artikel installiert wird. !!
+!! Bei Fragen stehe ich euch gerne zu Verfügung: "SQL.dedios@gmail.com" oder per WhatsApp. !!
+##################################################################################################
+*/
+
+
+-- Installation
+
+1. ZIP file Downloaden:
+2. ZIP file Entpacken
+3. "Artikeldb.bat" bearbeiten
+4. Nun muss der Pfad des SQL Servers angepasst werden. (Nur der vordere Teil!)
+
+	"C:\programme\mysql\MySQL Server 5.5\bin\ --> Nur dieser Teil muss angepasst werden.	
+
+
+
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysqladmin.exe" -uroot -p<Passwort> CREATE artikel
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysql.exe" -uroot -p<Passwort> artikel < CreateArtikel.txt
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysql.exe" -uroot -p<Passwort> artikel < mwst.txt
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysql.exe" -uroot -p<Passwort> artikel < warengruppe.txt
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysql.exe" -uroot -p<Passwort> artikel < kunden.txt
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysql.exe" -uroot -p<Passwort> artikel < artikel.txt
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysql.exe" -uroot -p<Passwort> artikel < bestellung.txt
+	"C:\programme\mysql\MySQL Server 5.5\bin\mysql.exe" -uroot -p<Passwort> artikel < bestell_position.txt
+
+5. Anschliessend muss das Passwort eingesetzt werden (Direkt nach dem -p): -p<Passwort> --> -p123456
+6. Wen kein Passwort gesetzt wurde beim SQL Server kann der Parameter -p<Passwort> einfach gelöscht werden.
+
+7. Nun die Batch Datei Speichern und Ausführen.
+
+--
