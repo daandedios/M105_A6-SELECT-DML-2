@@ -1,5 +1,5 @@
 # M105_A6-SELECT-DML-2
-### Aufgabe A5 SELECT DML Teil 1 (Aus meheren Tabellen)
+### Aufgabe A6 SELECT DML Teil 2 (Aus meheren Tabellen)
 
 Im Fenster oben könnt ihr die Aufgabe A6-SELECT-DML 2 Downloaden oder Ansehen.
 Die Musterlösungen sind ebenso vorhanden. (Separates SQL File)
